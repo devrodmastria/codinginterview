@@ -1,0 +1,86 @@
+header{
+	background: #2E7D32;
+	text-align: center;
+	margin: -10px -10px 0px -10px;
+	border-bottom-width: 3px solid;
+	padding: 10px 10px 10px 10px;
+}
+
+.header svg{
+	float: left;
+}
+
+.header h3{
+	float: center;
+}
+
+
+body{
+	text-align: center;
+	font-family: Verdana, Arial, serif;
+	font-family: Georgia, "Times New Roman", serif; /* fallback value. works as a backup in case the first font family is not available in the user's computer */
+	color: #1B5E20;   /* body text color */      
+}
+
+h1 { color: #4CAF50 }
+
+h2 { color: #1B5E20 }
+
+
+
+.row{
+	width:100%;
+	margin: 0 auto;
+	text-align: middle;
+	text-align: left;
+}
+
+.main_row{
+	background-color: gray;
+	margin: 10px ;
+	text-align: left;
+}
+
+tr{
+	background:#C8E6C9;
+}
+td{
+	padding:5px;
+}
+
+a:link { color: #388E3C;text-decoration: none;  }   
+a:visited  { color: #4CAF50 }  
+a:hover { color: #388E3C; font-style: italic; }
+
+svg:hover{
+	-ms-transform: rotate(7deg); /* IE 9 */
+    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+    transform: rotate(7deg);
+}
+
+.nav_block{
+	height: 80%;
+	float: left;
+	margin-right: 10px;
+}
+
+.content_block{
+    float: left;
+	width: 65%;
+	
+	padding: 10px;
+	background: #C8E6C9;
+	border-radius: 15px;
+	margin-bottom: 10px;
+	
+}
+
+footer{
+    clear: left;
+	width: 100%;
+	background-color: #2E7D32;
+	color: #C8E6C9;
+	text-align: top;
+	padding: 15px;
+	margin: -10px -10px 0px -10px;
+}
